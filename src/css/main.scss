@@ -1,0 +1,59 @@
+.main {
+    margin: 100px 30px 70px;
+}
+
+.navbar {
+    top: 0;
+}
+
+main {
+    min-height: calc(100vh - 280px);
+}
+
+main time {
+    margin-bottom: 10px;
+    display: block;
+}
+
+h1 {
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    margin-bottom: 30px;
+}
+
+li {
+    display: block;
+}
+
+.wp-block-gallery.columns-3.is-cropped {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+}
+
+.wp-block-gallery.columns-3.is-cropped img {
+    width: 100%;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navigation:first-of-type {
+    margin-bottom: 30px
+}
+
+.navigation:last-of-type {
+    margin-top: 60px;
+    margin-bottom: -30px;
+}
+
+.indexlink a {
+    display: block;
+    text-align: center;
+}
+
+.next {
+    justify-self: end;
+}
