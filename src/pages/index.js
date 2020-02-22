@@ -8,7 +8,6 @@ const BlogIndex = ({ data }) => {
   const posts = data.allWordpressPost.edges
     return (
       <Layout>
-        <div class="row">
         <SEO title="All posts" />
         {posts.map(({ node }) => {
           const title = node.title
@@ -17,7 +16,7 @@ const BlogIndex = ({ data }) => {
           return (
               <article key={node.title} id={node.slug}>
                 <header>
-                  <h2 class="info-title">
+                  <h2 className="title">
                     <Link to={node.slug}>
                       {title}
                     </Link>
@@ -34,7 +33,6 @@ const BlogIndex = ({ data }) => {
               </article>
           )
         })}
-        </div>
       </Layout>
     )
 }
