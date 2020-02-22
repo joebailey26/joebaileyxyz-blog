@@ -3,7 +3,7 @@ module.exports = {
     title: `Joe Bailey Blog`,
     author: `Joe Bailey`,
     description: `Joe Bailey Blog.`,
-    siteUrl: `https://joebailey.xyz/Blog/`,
+    siteUrl: `https://blog.joebailey.xyz/`,
   },
   plugins: [
     {
@@ -23,6 +23,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`
   ],
 }
