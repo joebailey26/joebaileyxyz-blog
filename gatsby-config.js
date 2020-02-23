@@ -50,7 +50,7 @@ module.exports = {
             },
             query: `
               {
-                allWordpressPost(sort: { fields: [date] }, filter: { 
+                allWordpressPost(filter: { 
                     categories: { 
                       elemMatch: {
                         name: {
