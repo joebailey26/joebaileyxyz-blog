@@ -1,7 +1,5 @@
 import React from "react"
 
-import * as Hammer from "hammerjs";
-
 import "joebaileyxyz/src/components/css/nav.scss"
 
 let app;
@@ -88,17 +86,6 @@ class Nav extends React.Component {
         app = document.getElementsByClassName('navmob')[0];
         aclose = document.getElementById('close');
         aclose.setAttribute("style", "display: none");
-
-        /*Hammer.js Init*/
-        var myElement = document.body;
-        
-        // create a simple instance
-		// by default, it only adds horizontal recognizers
-		var mc = new Hammer(myElement);
-
-		// listen to events...
-		mc.on("swipeleft", this.appclose);
-        mc.on("swiperight", this.appdrawer);
     }
 }
 
