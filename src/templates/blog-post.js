@@ -25,7 +25,7 @@ export default ({ data, pageContext }) => {
         <div class="navigation">
           {prevArticle}
           <div class="indexlink">
-            <Link to="/"><strong>Back to Blog Index</strong></Link>
+            <Link to="/"><strong>Back to</strong> Blog Index</Link>
           </div>
           {nextArticle}
         </div>
@@ -34,7 +34,7 @@ export default ({ data, pageContext }) => {
         <div class="navigation">
           {prevArticle}
           <div class="indexlink">
-            <Link to="/"><strong>Back to Blog Index</strong></Link>
+            <Link to="/"><strong>Back to</strong> Blog Index</Link>
           </div>
           {nextArticle}
         </div>
