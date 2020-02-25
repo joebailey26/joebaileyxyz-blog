@@ -30,13 +30,21 @@ h2 a:hover {
     color: #38786a
 }
 
+h4 {
+    font-size: 1.33rem;
+    font-family: "Roboto Slab";
+}
+
 a {
     transition: 0.25s;
 }
 
+main a {
+    font-weight: 900;
+}
+
 main a:hover {
     color: #3C4858;
-    font-weight: 900;
 }
 
 article {
@@ -47,7 +55,7 @@ article:first-of-type {
     margin-top: 0;
 }
 
-li {
+li.blocks-gallery-item {
     display: block;
 }
 

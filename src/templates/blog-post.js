@@ -21,6 +21,7 @@ export default ({ data, pageContext }) => {
   )
   return (
     <Layout>
+      <SEO title={post.title} />
       <article>
         <div class="navigation">
           {prevArticle}
